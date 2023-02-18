@@ -165,3 +165,7 @@ gsap.from(".contact_card", {
   x: 200,
   opacity: 0,
 });
+
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
